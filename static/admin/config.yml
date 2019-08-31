@@ -1,7 +1,8 @@
 backend:
-  name: github # Refer to https://www.netlifycms.org/docs/authentication-backends/ for auth backend list and instructions
-  branch: master # Branch to update
-  repo: kfields/gridlify # Repo for pushing new commits. Make sure to replace with your repo!
+  name: git-gateway
+  accept_roles: #optional - accepts all users if left out
+    - admin
+    - editor
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
