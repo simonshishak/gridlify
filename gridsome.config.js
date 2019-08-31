@@ -17,7 +17,7 @@ const workBoxConfig = require('./workbox-config')
 
 module.exports = {
   siteName: 'Gridlify',
-  siteUrl: 'https://gridlify.netlify.com',
+  siteUrl: 'https://nervous-bhaskara-07702a.netlify.com/',
   siteDescription: 'Gridsome + Contentful + Love',
   plugins: [
     {
